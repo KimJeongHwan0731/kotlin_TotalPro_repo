@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sell_edtTitle_hint"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edtPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sell_edtPrice_hint"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sell_edtText_hint"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnSeletPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sell_btnText_Place"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnSeletDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sell_btnText_Date"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnSeletTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sell_btnText_Time"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="취소" />
+
+        <Button
+            android:id="@+id/btnSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="완료" />
+
+    </LinearLayout>
+
+</LinearLayout>

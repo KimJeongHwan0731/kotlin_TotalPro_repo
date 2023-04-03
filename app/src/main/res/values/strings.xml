@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TotalPro</string>
+    <string name="app_splash_text1">앱 스플래시 화면</string>
+    <string name="app_splash_text2">(1초 뒤 사라지는 액티비티)</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="sell_edtTitle_hint">글 제목</string>
+    <string name="sell_edtPrice_hint">￦ 가격</string>
+    <string name="sell_edtText_hint">게시글 내용을 작성해주세요.</string>
+    <string name="sell_btnText_Place">거래 희망 장소</string>
+    <string name="sell_btnText_Date">거래 희망 날짜</string>
+    <string name="sell_btnText_Time">거래 희망 시간</string>
+</resources>
